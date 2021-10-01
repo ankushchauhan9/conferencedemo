@@ -9,7 +9,7 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration {
 
-    @Bean
+   /* @Bean
     public DataSource dataSource(){
         DataSourceBuilder builder = DataSourceBuilder.create();
         builder.url("jdbc:mysql://localhost:3306/mysqldemo");
@@ -17,6 +17,6 @@ public class PersistenceConfiguration {
         builder.password("admin");
         System.out.println("Customize datasource object has been set and initialize");
         return builder.build();
-    }
+    }*/
 
 }
